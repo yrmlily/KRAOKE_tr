@@ -105,3 +105,11 @@ footer{
     z-index: 10;
     border:1px  solid #fce4d6;
 }
+df-messenger {
+    --df-messenger-bot-message: #996633;
+    --df-messenger-button-titlebar-color: #ea5532;
+    --df-messenger-chat-background-color: #fff4ea;
+    --df-messenger-font-color: #fff;
+    --df-messenger-send-icon: #996633;
+    --df-messenger-user-message: #ff6633;
+   }
