@@ -67,7 +67,7 @@ label {
     opacity:1.0;
 }
 #links01 li:hover{
-    border-bottom-color: #fbdac8;
+    border-bottom:1px solid #fbdac8;
 }
 main{
     background-image: url(josh-rose-9YQGFzg0RiM-unsplash.jpg);
