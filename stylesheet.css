@@ -66,7 +66,7 @@ label {
     height:60px;
     opacity:1.0;
 }
-#links01 li:hover{
+li:hover{
     border-bottom:1px solid #fbdac8;
 }
 main{
