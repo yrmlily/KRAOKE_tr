@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>KARAOKE</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Bangers rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!--画像、アイコンのlink先などあれば-->
+    </head>
+    <body>
+        <header>
+            <div class="header-logo">KARAOKE</div>
+            <div class="header-right">
+                <div class="header-menu"><label for="header-menu">menu</label></div>
+                <input type="checkbox" id="header-menu" class="accordion"/>
+                <ul id="links01">
+                    <li><a href="#">料金表</a></li>
+                    <li><a href="#">フードメニュー</a></li>
+                    <li><a href="#">予約</a></li>
+                    <li><a href="#">アクセス</a></li>
+                </ul> 
+            </div>
+        </header>
+        <main class="contact-main">
+            <h2>お問い合わせ</h2>
+            <div class="main-form">
+              <p>お名前</p><input class="form name">
+              <p>お問い合わせ内容</p><textarea class="form text"></textarea>
+              <input class="btn" type="submit" value="送信">
+            </div>
+        </main>
+        <footer>
+            <div class="footer-logo">KARAOKE</div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="#">予約</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">会社概要</a></li>
+                </ul>
+            </div>
+        </footer>
+　　　　　<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="カラオケ(練習用2)"
+  agent-id="98f9a32a-b63b-4a13-82d8-974ba7e039cc"
+  language-code="ja"></df-messenger>
+        
+    </body>
+</html>
