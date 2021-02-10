@@ -1,0 +1,60 @@
+body{
+    font-family: 'Bangers', cursive;
+    background-color: #fbdac8;
+}
+li{
+    list-style: none;
+
+}
+header{
+    width:100%;
+    position:fixed;
+    background-color:#ea5532;
+    height:60px;
+    opacity:0.8;
+}
+.header-logo{
+    padding-left:5%;
+    color: #fce4d6;
+    float: left;
+    font-size:40px;
+}
+.header-right{
+    font-size: 20px;
+    float:right;
+    margin-right:5%;
+    line-height:60px;
+}
+.header-menu{
+    color:#ea5532;
+    background-color: #fce4d6;
+    height:60px;
+    padding:0 10px;
+}
+main{
+    background-image: url(/Users/yurimizuno/Desktop/Probasic/Karaoke_ex2/josh-rose-9YQGFzg0RiM-unsplash.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    width:100%;
+    height:1300px;
+    text-align:center;
+}
+main h1{
+    font-size:80px;
+}
+footer{
+    color:#fbdac8;
+    width: 100%;
+    height:90px;
+    background-color: #622d18;
+}
+.footer-logo{
+    font-size: 25px;
+    margin-left: 40px;
+    line-height:90px;
+    float:left
+}
+.footer-right{
+    margin-right: 80px;
+    float:right;
+}
